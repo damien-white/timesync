@@ -1,0 +1,73 @@
+### TimeSync | Application Root Directory ###
+
+## Node.js
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output/
+
+## Build Output
+build/
+dist/
+out/
+
+## Local Development Environment
+# Environment Variables
+.env
+.env.*
+.env.*.local
+
+# Automatically set/unset environment variables
+.envrc
+
+# Docker / Docker Compose
+docker-compose.yml
+Dockerfile
+Dockerfile.*
+
+# Docker volume (local development / testing)
+data/
+# PostgreSQL hooks (prestart)
+pgsql/
+
+# Project Specifications (for internal use only)
+.spec/
+.internal/
+
+# `api` and `client` use a shared Prettier config
+api/.prettier*
+
+## Logs
+# General
+logs
+*.log
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+## Development Workspace
+# IDEs and Code Editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Miscellaneous
+# MacOS
+.DS_Store

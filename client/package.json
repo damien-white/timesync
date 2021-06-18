@@ -1,0 +1,6 @@
+{
+  "name": "client__placeholder__",
+  "scripts": {
+    "serve": "node app.js"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "timesync",
+  "version": "0.0.1",
+  "description": "Browser-based application that helps with time management by storing and keeping track of your daily tasks, goals and deadlines.",
+  "keywords": [
+    "deadlines",
+    "feathers",
+    "goals",
+    "javascript",
+    "nodejs",
+    "notification",
+    "reminder",
+    "tasks",
+    "todo",
+    "time management",
+    "typescript",
+    "vue"
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/peter-donovan/timesync",
+  "author": "Peter Donovan",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=14.17.x",
+    "npm": ">=7.15.x",
+    "yarn": ">=1.22.x"
+  },
+  "scripts": {
+    "dev": "concurrently \"yarn dev:api\" \"yarn dev:client\"",
+    "dev:api": "cd api && yarn dev",
+    "dev:client": "cd client && yarn serve",
+    "format:check": "prettier --check \"**/*.{js,json,ts,vue}\"",
+    "format:write": "prettier --write \"**/*.{js,json,ts,vue}\"",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.1",
+    "husky": "^6.0.0"
+  }
+}

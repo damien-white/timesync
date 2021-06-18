@@ -1,0 +1,14 @@
+## IDE / Editor workspace
+.idea/
+.vscode/
+
+## Build output
+build/
+dist/
+out/
+
+## Node.js dependencies
+node_modules/
+
+## Package lock file
+yarn.lock
