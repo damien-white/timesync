@@ -10,9 +10,8 @@ out/
 ## Node.js dependencies
 node_modules/
 
-## TypeScript
-api/tsconfig.json
-api/tsconfig.*.json
+## ESLint configuration
+.eslintrc.yml
 
 ## Package lock file
 yarn.lock
