@@ -1,0 +1,12 @@
+[package]
+name = "timesync_server"
+version = "0.0.1"
+edition = "2018"
+authors = ["Peter Donovan <peter@darkfusion.io>"]
+keywords = ["agenda", "time management", "web"]
+repository = "https://github.com/peter-donovan/timesync/server"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

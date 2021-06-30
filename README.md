@@ -20,8 +20,25 @@ The structure of this project is quite simple. Two separate directories contain 
   2. Client-side code - [client](./client)
 
 ## Technology Stack
-- Not yet implemented. Please check back soon for updates!
+__NOTICE__: The project is in the stages of very early development and, thus, is not stable.
+
+The technology stack may change before the project reaches MVP status.<br/>
+With that said, the following (non-exhaustive) list will likely be representative of what is ultimately used:
+
+API Server:
+- [Rust](https://www.rust-lang.org/)
+- [Rocket](https://rocket.rs/)
+
+Databases / Caching:
+- [PostgreSQL](https://postgresql.org/)
+- [Redis](https://redis.io/)
+
+Frontend Client:
+- [Vue.js](https://vuejs.org)
+- [SCSS](https://sass-lang.com/)
 
 ## Licensing
-This product is licensed under the [MIT License](LICENSE.md).
+TimeSync is licensed by the [MIT License](LICENSE.md). This is free and open-source software.
+
+If you have questions, please consult the official license for further information.
 
